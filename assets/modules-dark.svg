@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 295" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="cardBgDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1624" />
+      <stop offset="100%" stop-color="#090E17" />
+    </linearGradient>
+
+    <pattern id="dotPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1E293B" />
+    </pattern>
+
+    <filter id="pulseGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+    
+    @keyframes blinkSlow {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .blink-green { animation: blinkSlow 2s infinite ease-in-out; }
+    .blink-cyan { animation: blinkSlow 2.5s infinite ease-in-out; }
+    .blink-amber { animation: blinkSlow 1.8s infinite ease-in-out; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="916" height="291" rx="8" fill="#070A0F" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="3" y="3" width="914" height="289" rx="7" fill="url(#dotPattern)" opacity="0.6" />
+
+  <!-- Section Topbar -->
+  <path d="M 2 38 L 918 38" stroke="#1E293B" stroke-width="1" />
+  <rect x="2" y="2" width="916" height="36" rx="8" fill="#0B111A" />
+  <text x="24" y="23" fill="#00F0FF" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">02 // ACTIVE SYSTEM MODULES</text>
+  <text x="260" y="23" fill="#334155" class="mono" font-size="11">|</text>
+  <text x="275" y="23" fill="#64748B" class="mono" font-size="10.5">SLOTS ALLOCATED: <tspan fill="#00E599">3 / 3 ACTIVE</tspan></text>
+  <text x="895" y="23" text-anchor="end" fill="#475569" class="mono" font-size="10">AUTOSYNC: ONLINE</text>
+
+  <!-- ==================== MODULE 01: RAZORPAY RECOVERY ==================== -->
+  <g transform="translate(18, 52)">
+    <rect x="0" y="0" width="280" height="225" rx="6" fill="url(#cardBgDark)" stroke="#1E293B" stroke-width="1" />
+    <!-- Top accent strip -->
+    <path d="M 0 4 Q 0 0 4 0 L 276 0 Q 280 0 280 4 L 280 28 L 0 28 Z" fill="#111C2D" />
+    <path d="M 0 28 L 280 28" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Module ID & Status -->
+    <text x="12" y="18" fill="#38BDF8" class="mono" font-size="9.5" font-weight="700" letter-spacing="1">MOD_01 // FINTECH</text>
+    <circle class="blink-green" cx="264" cy="14" r="3.5" fill="#00E599" filter="url(#pulseGlow)" />
+
+    <!-- Project Title -->
+    <text x="12" y="52" fill="#F8FAFC" class="sans" font-size="15.5" font-weight="700">Razorpay Recovery</text>
+    <text x="12" y="68" fill="#00F0FF" class="mono" font-size="10" font-weight="600" letter-spacing="0.5">Deterministic Policy Engine</text>
+
+    <!-- Description -->
+    <text x="12" y="94" fill="#94A3B8" class="sans" font-size="11.5" line-height="16">
+      <tspan x="12" dy="0">Revenue recovery platform with</tspan>
+      <tspan x="12" dy="16">deterministic policy routing, webhooks</tspan>
+      <tspan x="12" dy="16">and AI-generated failure explanations.</tspan>
+    </text>
+
+    <!-- Stack Section -->
+    <rect x="10" y="152" width="260" height="34" rx="4" fill="#090E17" stroke="#1E293B" stroke-width="0.8" />
+    <text x="18" y="166" fill="#64748B" class="mono" font-size="8.5" letter-spacing="0.8">CORE RUNTIME</text>
+    <text x="18" y="179" fill="#E2E8F0" class="mono" font-size="10" font-weight="600">FastAPI • Razorpay • LLM</text>
+
+    <!-- Footer metadata -->
+    <path d="M 0 196 L 280 196" stroke="#1E293B" stroke-width="1" />
+    <text x="12" y="213" fill="#00E599" class="mono" font-size="9.5" font-weight="700">● LIVE RUNTIME</text>
+    <text x="268" y="213" text-anchor="end" fill="#38BDF8" class="mono" font-size="9.5">VIEW REPO ▶</text>
+  </g>
+
+  <!-- ==================== MODULE 02: LAN CHESS ==================== -->
+  <g transform="translate(320, 52)">
+    <rect x="0" y="0" width="280" height="225" rx="6" fill="url(#cardBgDark)" stroke="#1E293B" stroke-width="1" />
+    <!-- Top accent strip -->
+    <path d="M 0 4 Q 0 0 4 0 L 276 0 Q 280 0 280 4 L 280 28 L 0 28 Z" fill="#111C2D" />
+    <path d="M 0 28 L 280 28" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Module ID & Status -->
+    <text x="12" y="18" fill="#38BDF8" class="mono" font-size="9.5" font-weight="700" letter-spacing="1">MOD_02 // NETWORK</text>
+    <circle class="blink-cyan" cx="264" cy="14" r="3.5" fill="#00F0FF" filter="url(#pulseGlow)" />
+
+    <!-- Project Title -->
+    <text x="12" y="52" fill="#F8FAFC" class="sans" font-size="15.5" font-weight="700">LAN Chess Platform</text>
+    <text x="12" y="68" fill="#38BDF8" class="mono" font-size="10" font-weight="600" letter-spacing="0.5">Multiplayer Protocol Engine</text>
+
+    <!-- Description -->
+    <text x="12" y="94" fill="#94A3B8" class="sans" font-size="11.5">
+      <tspan x="12" dy="0">Multiplayer chess system with LAN</tspan>
+      <tspan x="12" dy="16">network gameplay, custom themes,</tspan>
+      <tspan x="12" dy="16">move analysis &amp; Stockfish integration.</tspan>
+    </text>
+
+    <!-- Stack Section -->
+    <rect x="10" y="152" width="260" height="34" rx="4" fill="#090E17" stroke="#1E293B" stroke-width="0.8" />
+    <text x="18" y="166" fill="#64748B" class="mono" font-size="8.5" letter-spacing="0.8">CORE RUNTIME</text>
+    <text x="18" y="179" fill="#E2E8F0" class="mono" font-size="10" font-weight="600">Sockets • Stockfish • C++ / Py</text>
+
+    <!-- Footer metadata -->
+    <path d="M 0 196 L 280 196" stroke="#1E293B" stroke-width="1" />
+    <text x="12" y="213" fill="#00F0FF" class="mono" font-size="9.5" font-weight="700">● MULTIPLAYER SYNC</text>
+    <text x="268" y="213" text-anchor="end" fill="#38BDF8" class="mono" font-size="9.5">VIEW REPO ▶</text>
+  </g>
+
+  <!-- ==================== MODULE 03: AI AUTOMATION ==================== -->
+  <g transform="translate(622, 52)">
+    <rect x="0" y="0" width="280" height="225" rx="6" fill="url(#cardBgDark)" stroke="#1E293B" stroke-width="1" />
+    <!-- Top accent strip -->
+    <path d="M 0 4 Q 0 0 4 0 L 276 0 Q 280 0 280 4 L 280 28 L 0 28 Z" fill="#111C2D" />
+    <path d="M 0 28 L 280 28" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Module ID & Status -->
+    <text x="12" y="18" fill="#38BDF8" class="mono" font-size="9.5" font-weight="700" letter-spacing="1">MOD_03 // PIPELINE</text>
+    <circle class="blink-amber" cx="264" cy="14" r="3.5" fill="#F59E0B" filter="url(#pulseGlow)" />
+
+    <!-- Project Title -->
+    <text x="12" y="52" fill="#F8FAFC" class="sans" font-size="15.5" font-weight="700">AI / Auto Experiments</text>
+    <text x="12" y="68" fill="#F59E0B" class="mono" font-size="10" font-weight="600" letter-spacing="0.5">Practical Agent Workflows</text>
+
+    <!-- Description -->
+    <text x="12" y="94" fill="#94A3B8" class="sans" font-size="11.5">
+      <tspan x="12" dy="0">Small, practical AI pipelines and</tspan>
+      <tspan x="12" dy="16">automation tools designed to handle</tspan>
+      <tspan x="12" dy="16">real tasks without unnecessary bloat.</tspan>
+    </text>
+
+    <!-- Stack Section -->
+    <rect x="10" y="152" width="260" height="34" rx="4" fill="#090E17" stroke="#1E293B" stroke-width="0.8" />
+    <text x="18" y="166" fill="#64748B" class="mono" font-size="8.5" letter-spacing="0.8">CORE RUNTIME</text>
+    <text x="18" y="179" fill="#E2E8F0" class="mono" font-size="10" font-weight="600">Python • LLM Tooling • APIs</text>
+
+    <!-- Footer metadata -->
+    <path d="M 0 196 L 280 196" stroke="#1E293B" stroke-width="1" />
+    <text x="12" y="213" fill="#F59E0B" class="mono" font-size="9.5" font-weight="700">● EXPERIMENTAL</text>
+    <text x="268" y="213" text-anchor="end" fill="#38BDF8" class="mono" font-size="9.5">VIEW REPO ▶</text>
+  </g>
+
+</svg>

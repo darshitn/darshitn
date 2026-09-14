@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="telemBgDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1624" />
+      <stop offset="100%" stop-color="#070A0F" />
+    </linearGradient>
+
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E599" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <pattern id="telemGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.6" fill="#1E293B" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+
+    @keyframes pulseHeartbeat {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.9; }
+      50% { opacity: 0.4; }
+    }
+    .heartbeat-line {
+      stroke-dasharray: 4 2;
+      animation: pulseHeartbeat 3s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="916" height="216" rx="8" fill="#070A0F" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="3" y="3" width="914" height="214" rx="7" fill="url(#telemGrid)" opacity="0.6" />
+
+  <!-- Topbar -->
+  <path d="M 2 38 L 918 38" stroke="#1E293B" stroke-width="1" />
+  <rect x="2" y="2" width="916" height="36" rx="8" fill="#0B111A" />
+  <text x="24" y="23" fill="#00F0FF" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">05 // GITHUB &amp; SYSTEM TELEMETRY</text>
+  <text x="320" y="23" fill="#334155" class="mono" font-size="11">|</text>
+  <text x="335" y="23" fill="#64748B" class="mono" font-size="10.5">SOURCE: <tspan fill="#F8FAFC">ENGINEERING KERNEL</tspan></text>
+  <text x="895" y="23" text-anchor="end" fill="#00E599" class="mono" font-size="10">● STREAM: SYNCHRONIZED</text>
+
+  <!-- ==================== PANEL 1: ARCHITECTURE WEIGHTS ==================== -->
+  <g transform="translate(18, 50)">
+    <rect x="0" y="0" width="290" height="152" rx="5" fill="url(#telemBgDark)" stroke="#1E293B" stroke-width="1" />
+    <text x="14" y="22" fill="#38BDF8" class="mono" font-size="10" font-weight="700" letter-spacing="1">SYSTEM ARCHITECTURE MIX</text>
+
+    <!-- Bar 1: Backend Systems -->
+    <g transform="translate(14, 34)">
+      <text x="0" y="10" fill="#94A3B8" class="mono" font-size="9">Backend &amp; API Systems</text>
+      <text x="262" y="10" text-anchor="end" fill="#00E599" class="mono" font-size="9" font-weight="700">45%</text>
+      <rect x="0" y="15" width="262" height="6" rx="3" fill="#132030" />
+      <rect x="0" y="15" width="118" height="6" rx="3" fill="url(#barEmerald)" />
+    </g>
+
+    <!-- Bar 2: AI & LLM Pipelines -->
+    <g transform="translate(14, 70)">
+      <text x="0" y="10" fill="#94A3B8" class="mono" font-size="9">Practical AI &amp; Pipelines</text>
+      <text x="262" y="10" text-anchor="end" fill="#00F0FF" class="mono" font-size="9" font-weight="700">35%</text>
+      <rect x="0" y="15" width="262" height="6" rx="3" fill="#132030" />
+      <rect x="0" y="15" width="92" height="6" rx="3" fill="url(#barCyan)" />
+    </g>
+
+    <!-- Bar 3: Tooling & Fullstack -->
+    <g transform="translate(14, 106)">
+      <text x="0" y="10" fill="#94A3B8" class="mono" font-size="9">Network &amp; Product Tooling</text>
+      <text x="262" y="10" text-anchor="end" fill="#F59E0B" class="mono" font-size="9" font-weight="700">20%</text>
+      <rect x="0" y="15" width="262" height="6" rx="3" fill="#132030" />
+      <rect x="0" y="15" width="52" height="6" rx="3" fill="url(#barAmber)" />
+    </g>
+  </g>
+
+  <!-- ==================== PANEL 2: BUILD CADENCE & DISCIPLINE ==================== -->
+  <g transform="translate(324, 50)">
+    <rect x="0" y="0" width="276" height="152" rx="5" fill="url(#telemBgDark)" stroke="#1E293B" stroke-width="1" />
+    <text x="14" y="22" fill="#00E599" class="mono" font-size="10" font-weight="700" letter-spacing="1">BUILD CADENCE &amp; CADRE</text>
+
+    <!-- Metric 1 -->
+    <g transform="translate(14, 36)">
+      <rect x="0" y="0" width="248" height="32" rx="4" fill="#0A111C" stroke="#1E293B" stroke-width="0.8" />
+      <text x="10" y="14" fill="#64748B" class="mono" font-size="8.5">COMMIT DISCIPLINE</text>
+      <text x="10" y="26" fill="#F8FAFC" class="mono" font-size="10.5" font-weight="600">Feature-scoped &amp; Atomic</text>
+    </g>
+
+    <!-- Metric 2 -->
+    <g transform="translate(14, 74)">
+      <rect x="0" y="0" width="248" height="32" rx="4" fill="#0A111C" stroke="#1E293B" stroke-width="0.8" />
+      <text x="10" y="14" fill="#64748B" class="mono" font-size="8.5">SYSTEM RELIABILITY</text>
+      <text x="10" y="26" fill="#00E599" class="mono" font-size="10.5" font-weight="600">Deterministic Policies First</text>
+    </g>
+
+    <!-- Metric 3 -->
+    <g transform="translate(14, 112)">
+      <rect x="0" y="0" width="248" height="30" rx="4" fill="#0A111C" stroke="#1E293B" stroke-width="0.8" />
+      <text x="10" y="13" fill="#64748B" class="mono" font-size="8.5">SHIP VELOCITY</text>
+      <text x="10" y="25" fill="#38BDF8" class="mono" font-size="10.5" font-weight="600">Hackathon &amp; Production Ready</text>
+    </g>
+  </g>
+
+  <!-- ==================== PANEL 3: PROTOCOL & WORKSTREAM ==================== -->
+  <g transform="translate(616, 50)">
+    <rect x="0" y="0" width="286" height="152" rx="5" fill="url(#telemBgDark)" stroke="#1E293B" stroke-width="1" />
+    <text x="14" y="22" fill="#F59E0B" class="mono" font-size="10" font-weight="700" letter-spacing="1">TELEMETRY DIAGNOSTICS</text>
+
+    <!-- Diagnostic lines -->
+    <g transform="translate(14, 40)">
+      <text x="0" y="10" fill="#64748B" class="mono" font-size="9">PIPELINE</text>
+      <text x="80" y="10" fill="#F8FAFC" class="mono" font-size="9.5" font-weight="600">SPEC &gt; BUILD &gt; SHIP</text>
+
+      <text x="0" y="28" fill="#64748B" class="mono" font-size="9">AI RUNTIME</text>
+      <text x="80" y="28" fill="#38BDF8" class="mono" font-size="9.5" font-weight="600">Structured Tool Use</text>
+
+      <text x="0" y="46" fill="#64748B" class="mono" font-size="9">NETWORKING</text>
+      <text x="80" y="46" fill="#00E599" class="mono" font-size="9.5" font-weight="600">Sockets &amp; Webhooks</text>
+
+      <text x="0" y="64" fill="#64748B" class="mono" font-size="9">CODE QUALITY</text>
+      <text x="80" y="64" fill="#F8FAFC" class="mono" font-size="9.5" font-weight="600">Clean &amp; Reproducible</text>
+    </g>
+
+    <!-- Live Telemetry Pulse Wave -->
+    <g transform="translate(14, 122)">
+      <rect x="0" y="0" width="258" height="20" rx="3" fill="#080D14" stroke="#1E293B" stroke-width="0.8" />
+      <path class="heartbeat-line" d="M 6 10 L 40 10 L 48 4 L 54 16 L 60 8 L 66 12 L 72 10 L 140 10 L 148 3 L 154 17 L 160 8 L 166 12 L 172 10 L 252 10" fill="none" stroke="#00F0FF" stroke-width="1.2" />
+    </g>
+  </g>
+
+</svg>
