@@ -14,9 +14,9 @@
 &nbsp;
 <a href="https://linkedin.com/in/ndarshit"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>
 &nbsp;
-<a href="https://darshit.dev"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="34" /></a>
+<a href="https://darshit-portfolio-one.vercel.app/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="34" /></a>
 &nbsp;
-<a href="mailto:contact@darshit.dev"><img src="assets/btn-email.svg" alt="Email" height="34" /></a>
+<a href="mailto:darshitn06@gmail.com"><img src="assets/btn-email.svg" alt="Email" height="34" /></a>
 
 </div>
 
@@ -40,7 +40,7 @@
       <b><code>MOD_01</code> // Razorpay Recovery System</b><br><br>
       Automated revenue recovery engine designed to handle failed checkouts and payment drops via deterministic policy routing, webhook ingestion, and AI-generated explanations.<br><br>
       <code>Python</code> • <code>FastAPI</code> • <code>Razorpay APIs</code> • <code>LLM</code><br><br>
-      <a href="https://github.com/darshitn/razorpay-recovery-system"><b>inspect source ↗</b></a>
+      <a href="https://github.com/darshitn/recoverai-razorpay"><b>inspect source ↗</b></a>
     </td>
     <td width="33%" valign="top">
       <b><code>MOD_02</code> // LAN Chess Platform</b><br><br>
@@ -49,10 +49,10 @@
       <a href="https://github.com/darshitn/lan-chess"><b>inspect source ↗</b></a>
     </td>
     <td width="33%" valign="top">
-      <b><code>MOD_03</code> // AI / Automation Pipeline</b><br><br>
-      Practical micro-agent pipelines and developer workflows built to automate real tasks with deterministic validation and minimal overhead.<br><br>
-      <code>Python</code> • <code>LLM Tooling</code> • <code>Docker</code> • <code>APIs</code><br><br>
-      <a href="https://github.com/darshitn/ai-automation-experiments"><b>inspect source ↗</b></a>
+      <b><code>MOD_03</code> // V.E.G.A. AI Dashboard</b><br><br>
+      Local-first, global-hotkey AI assistant &amp; desktop telemetry monitor built with Electron, React, FastAPI, and local AI model integration.<br><br>
+      <code>Electron</code> • <code>React</code> • <code>FastAPI</code> • <code>Local AI</code><br><br>
+      <a href="https://github.com/darshitn/jarvis-dashboard"><b>inspect source ↗</b></a>
     </td>
   </tr>
 </table>
@@ -91,10 +91,10 @@ INDEX // SOFTWARE PORTFOLIO REGISTER
 
 | System Node | Architectural Purpose | Core Stack | Access Point |
 | :--- | :--- | :--- | :--- |
-| **Razorpay Recovery System** | Revenue recovery engine executing deterministic recovery policies on webhook events, paired with AI-driven failure analysis. | `FastAPI`, `Python`, `Razorpay API`, `LLM` | [`repo` ↗](https://github.com/darshitn/razorpay-recovery-system) |
-| **LAN Chess Platform** | Low-latency local multiplayer chess game featuring real-time socket communication, board theming, and integrated Stockfish analysis. | `C++`, `Python`, `Sockets`, `Stockfish` | [`repo` ↗](https://github.com/darshitn/lan-chess) |
-| **AI Task Orchestrator** | Experimental automation pipeline executing multi-step LLM tasks with fallback handling and structured output schemas. | `Python`, `LLM APIs`, `Docker`, `Git` | [`repo` ↗](https://github.com/darshitn/ai-automation-experiments) |
-| **Backend Service Boilerplate** | Opinionated micro-backend template with async database pools, JWT auth, health probes, and structured error responses. | `FastAPI`, `PostgreSQL`, `Docker`, `Pytest` | [`repo` ↗](https://github.com/darshitn/backend-service-template) |
+| **Razorpay Recovery System** | Revenue recovery engine executing deterministic recovery policies on webhook events, paired with AI-driven failure analysis. | `FastAPI`, `Python`, `Razorpay API`, `LLM` | [`repo` ↗](https://github.com/darshitn/recoverai-razorpay) |
+| **LAN Chess Platform** | Low-latency local multiplayer chess platform featuring real-time socket synchronization and move validation. | `TypeScript`, `Sockets`, `Stockfish`, `React` | [`repo` ↗](https://github.com/darshitn/lan-chess) |
+| **MindfulFlow Focus System** | Minimalist Pomodoro timer engineered for deep focus and wellness, featuring fluid Antigravity UI and glassmorphism. | `React`, `JavaScript`, `Framer Motion`, `Tailwind` | [`repo` ↗](https://github.com/darshitn/MindfulFlow-Project) |
+| **Developer Portfolio** | Modern personal engineering portfolio showcasing technical projects, software architecture, and systems journey. | `TypeScript`, `React`, `Tailwind CSS`, `Vite` | [`repo` ↗](https://github.com/darshitn/darshit-portfolio) |
 
 <br>
 
@@ -141,5 +141,5 @@ RADAR // ACTIVE ENGINEERING OBJECTIVES
 
 <div align="center">
   <br>
-  <sub><b>N DARSHIT</b> • B.Tech CSE (Y2) • <a href="https://linkedin.com/in/ndarshit">LinkedIn</a> • <a href="https://darshit.dev">Portfolio</a> • <a href="https://github.com/darshitn">GitHub</a> • <a href="mailto:contact@darshit.dev">Email</a></sub>
+  <sub><b>N DARSHIT</b> • B.Tech CSE (Y2) • <a href="https://linkedin.com/in/ndarshit">LinkedIn</a> • <a href="https://darshit-portfolio-one.vercel.app/">Portfolio</a> • <a href="https://github.com/darshitn">GitHub</a> • <a href="mailto:darshitn06@gmail.com">Email</a></sub>
 </div>
