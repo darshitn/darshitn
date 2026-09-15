@@ -28,11 +28,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/darshitn/recoverai-razorpay">Razorpay Recovery ↗</a></h4>
-      <p>Rule-governed failed payment recovery system for Razorpay Test Mode with deterministic retry policies, real webhook handling, and audit logging.</p>
-      <sub><code>Python</code> • <code>FastAPI</code> • <code>Razorpay APIs</code> • <code>Webhooks</code></sub>
-    </td>
+
     <td width="33%" valign="top">
       <h4><a href="https://github.com/darshitn/lan-chess">LAN Chess ↗</a></h4>
       <p>Multiplayer chess platform over local networks enabling players to connect and play without an internet connection, featuring move analysis.</p>
@@ -54,7 +50,7 @@
 
 | Project | Description | Stack | Source |
 | :--- | :--- | :--- | :--- |
-| **Razorpay Recovery** | Revenue recovery engine executing deterministic recovery policies on webhook events, paired with audit logging. | `FastAPI`, `Python`, `Razorpay API`, `Webhooks` | [Repository ↗](https://github.com/darshitn/recoverai-razorpay) |
+
 | **LAN Chess Platform** | Low-latency local multiplayer chess game featuring real-time socket communication and move validation. | `TypeScript`, `Sockets`, `Stockfish`, `React` | [Repository ↗](https://github.com/darshitn/lan-chess) |
 | **V.E.G.A. Desktop AI** | Local-first desktop AI assistant and system telemetry monitor with global hotkeys. | `Electron`, `React`, `FastAPI`, `Local AI` | [Repository ↗](https://github.com/darshitn/jarvis-dashboard) |
 | **MindfulFlow** | Minimalist Pomodoro timer designed for deep focus and wellness, featuring fluid motion and clean UI. | `React`, `JavaScript`, `Framer Motion`, `Tailwind` | [Repository ↗](https://github.com/darshitn/MindfulFlow-Project) |
