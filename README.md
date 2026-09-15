@@ -28,7 +28,6 @@
 
 <table>
   <tr>
-
     <td width="33%" valign="top">
       <h4><a href="https://github.com/darshitn/lan-chess">LAN Chess ↗</a></h4>
       <p>Multiplayer chess platform over local networks enabling players to connect and play without an internet connection, featuring move analysis.</p>
@@ -50,7 +49,6 @@
 
 | Project | Description | Stack | Source |
 | :--- | :--- | :--- | :--- |
-
 | **LAN Chess Platform** | Low-latency local multiplayer chess game featuring real-time socket communication and move validation. | `TypeScript`, `Sockets`, `Stockfish`, `React` | [Repository ↗](https://github.com/darshitn/lan-chess) |
 | **V.E.G.A. Desktop AI** | Local-first desktop AI assistant and system telemetry monitor with global hotkeys. | `Electron`, `React`, `FastAPI`, `Local AI` | [Repository ↗](https://github.com/darshitn/jarvis-dashboard) |
 | **MindfulFlow** | Minimalist Pomodoro timer designed for deep focus and wellness, featuring fluid motion and clean UI. | `React`, `JavaScript`, `Framer Motion`, `Tailwind` | [Repository ↗](https://github.com/darshitn/MindfulFlow-Project) |
