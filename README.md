@@ -1,22 +1,22 @@
 <div align="center">
 
-<!-- ==================== 01 // HERO BANNER ==================== -->
+<!-- Hero Banner -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="N Darshit — Developer Control Room" src="assets/hero-dark.svg" width="100%">
+  <img alt="N Darshit — Personal Engineering Portfolio" src="assets/hero-dark.svg" width="100%">
 </picture>
 
-<br>
+<br><br>
 
-<!-- Direct Action Dispatch Controls -->
-<a href="https://github.com/darshitn"><img src="assets/btn-github.svg" alt="GitHub" height="34" /></a>
+<!-- Contact & Profiles -->
+<a href="https://github.com/darshitn"><img src="assets/btn-github.svg" alt="GitHub" height="30" /></a>
 &nbsp;
-<a href="https://linkedin.com/in/ndarshit"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>
+<a href="https://www.linkedin.com/in/n-darshit-63b6b7382/"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="30" /></a>
 &nbsp;
-<a href="https://darshit-portfolio-one.vercel.app/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="34" /></a>
+<a href="https://darshit-portfolio-one.vercel.app/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="30" /></a>
 &nbsp;
-<a href="mailto:darshitn06@gmail.com"><img src="assets/btn-email.svg" alt="Email" height="34" /></a>
+<a href="mailto:darshitn06@gmail.com"><img src="assets/btn-email.svg" alt="Email" height="30" /></a>
 
 </div>
 
@@ -24,35 +24,24 @@
 
 ---
 
-### `02 // NOW BUILDING`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/modules-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/modules-light.svg">
-  <img alt="Active System Modules" src="assets/modules-dark.svg" width="100%">
-</picture>
-
-<br>
+### Currently building
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b><code>MOD_01</code> // Razorpay Recovery System</b><br><br>
-      Automated revenue recovery engine designed to handle failed checkouts and payment drops via deterministic policy routing, webhook ingestion, and AI-generated explanations.<br><br>
-      <code>Python</code> • <code>FastAPI</code> • <code>Razorpay APIs</code> • <code>LLM</code><br><br>
-      <a href="https://github.com/darshitn/recoverai-razorpay"><b>inspect source ↗</b></a>
+      <h4><a href="https://github.com/darshitn/recoverai-razorpay">Razorpay Recovery ↗</a></h4>
+      <p>Rule-governed failed payment recovery system for Razorpay Test Mode with deterministic retry policies, real webhook handling, and audit logging.</p>
+      <sub><code>Python</code> • <code>FastAPI</code> • <code>Razorpay APIs</code> • <code>Webhooks</code></sub>
     </td>
     <td width="33%" valign="top">
-      <b><code>MOD_02</code> // LAN Chess Platform</b><br><br>
-      High-performance multiplayer chess environment with local-network synchronization, custom themes, move history validation, and embedded Stockfish engine analysis.<br><br>
-      <code>C++</code> • <code>Python</code> • <code>Sockets</code> • <code>Stockfish</code><br><br>
-      <a href="https://github.com/darshitn/lan-chess"><b>inspect source ↗</b></a>
+      <h4><a href="https://github.com/darshitn/lan-chess">LAN Chess ↗</a></h4>
+      <p>Multiplayer chess platform over local networks enabling players to connect and play without an internet connection, featuring move analysis.</p>
+      <sub><code>TypeScript</code> • <code>React</code> • <code>WebSockets</code> • <code>Stockfish</code></sub>
     </td>
     <td width="33%" valign="top">
-      <b><code>MOD_03</code> // V.E.G.A. AI Dashboard</b><br><br>
-      Local-first, global-hotkey AI assistant &amp; desktop telemetry monitor built with Electron, React, FastAPI, and local AI model integration.<br><br>
-      <code>Electron</code> • <code>React</code> • <code>FastAPI</code> • <code>Local AI</code><br><br>
-      <a href="https://github.com/darshitn/jarvis-dashboard"><b>inspect source ↗</b></a>
+      <h4><a href="https://github.com/darshitn/jarvis-dashboard">V.E.G.A. AI Dashboard ↗</a></h4>
+      <p>Local-first, global-hotkey desktop AI assistant and system monitor built with Electron, React, FastAPI, and local AI model integration.</p>
+      <sub><code>Electron</code> • <code>React</code> • <code>FastAPI</code> • <code>Local AI</code></sub>
     </td>
   </tr>
 </table>
@@ -61,85 +50,43 @@
 
 ---
 
-### `03 // ENGINEERING STACK`
+### Selected projects
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
-  <img alt="Engineering Stack &amp; Runtime" src="assets/stack-dark.svg" width="100%">
-</picture>
-
-<br>
-
-| Classification | Technologies &amp; Tooling | Deployment Scope |
-| :--- | :--- | :--- |
-| **`LANGUAGES`** | `Python` &nbsp;•&nbsp; `C++` &nbsp;•&nbsp; `TypeScript` &nbsp;•&nbsp; `JavaScript` | System logic, network services, scripting, type-safe interfaces |
-| **`FRAMEWORKS`** | `FastAPI` &nbsp;•&nbsp; `React` &nbsp;•&nbsp; `Tailwind CSS` | High-throughput APIs, reactive interfaces, modern design systems |
-| **`BACKEND / INFRA`** | `PostgreSQL` &nbsp;•&nbsp; `Docker` &nbsp;•&nbsp; `Git` &nbsp;•&nbsp; `REST &amp; Webhooks` | Relational persistence, containerized environments, webhook pipelines |
-| **`AI / DATA`** | `LLM Tooling` &nbsp;•&nbsp; `Agent Pipelines` &nbsp;•&nbsp; `Embeddings` &nbsp;•&nbsp; `Vector Search` | Structured outputs, deterministic agents, context retrieval |
-| **`ENVIRONMENT`** | `Linux / Bash` &nbsp;•&nbsp; `Postman` &nbsp;•&nbsp; `Vite` &nbsp;•&nbsp; `VS Code` | POSIX toolchain, API testing, build optimization |
-
-<br>
-
----
-
-### `04 // SELECTED BUILDS`
-
-```
-INDEX // SOFTWARE PORTFOLIO REGISTER
-```
-
-| System Node | Architectural Purpose | Core Stack | Access Point |
+| Project | Description | Stack | Source |
 | :--- | :--- | :--- | :--- |
-| **Razorpay Recovery System** | Revenue recovery engine executing deterministic recovery policies on webhook events, paired with AI-driven failure analysis. | `FastAPI`, `Python`, `Razorpay API`, `LLM` | [`repo` ↗](https://github.com/darshitn/recoverai-razorpay) |
-| **LAN Chess Platform** | Low-latency local multiplayer chess platform featuring real-time socket synchronization and move validation. | `TypeScript`, `Sockets`, `Stockfish`, `React` | [`repo` ↗](https://github.com/darshitn/lan-chess) |
-| **MindfulFlow Focus System** | Minimalist Pomodoro timer engineered for deep focus and wellness, featuring fluid Antigravity UI and glassmorphism. | `React`, `JavaScript`, `Framer Motion`, `Tailwind` | [`repo` ↗](https://github.com/darshitn/MindfulFlow-Project) |
-| **Developer Portfolio** | Modern personal engineering portfolio showcasing technical projects, software architecture, and systems journey. | `TypeScript`, `React`, `Tailwind CSS`, `Vite` | [`repo` ↗](https://github.com/darshitn/darshit-portfolio) |
+| **Razorpay Recovery** | Revenue recovery engine executing deterministic recovery policies on webhook events, paired with audit logging. | `FastAPI`, `Python`, `Razorpay API`, `Webhooks` | [Repository ↗](https://github.com/darshitn/recoverai-razorpay) |
+| **LAN Chess Platform** | Low-latency local multiplayer chess game featuring real-time socket communication and move validation. | `TypeScript`, `Sockets`, `Stockfish`, `React` | [Repository ↗](https://github.com/darshitn/lan-chess) |
+| **V.E.G.A. Desktop AI** | Local-first desktop AI assistant and system telemetry monitor with global hotkeys. | `Electron`, `React`, `FastAPI`, `Local AI` | [Repository ↗](https://github.com/darshitn/jarvis-dashboard) |
+| **MindfulFlow** | Minimalist Pomodoro timer designed for deep focus and wellness, featuring fluid motion and clean UI. | `React`, `JavaScript`, `Framer Motion`, `Tailwind` | [Repository ↗](https://github.com/darshitn/MindfulFlow-Project) |
+| **Developer Portfolio** | Personal engineering portfolio showcasing projects, technical skills, and systems journey. | `TypeScript`, `React`, `Tailwind CSS`, `Vite` | [Repository ↗](https://github.com/darshitn/darshit-portfolio) |
 
 <br>
 
 ---
 
-### `05 // GITHUB TELEMETRY`
+### Tech stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/telemetry-light.svg">
-  <img alt="GitHub Telemetry Dashboard" src="assets/telemetry-dark.svg" width="100%">
-</picture>
-
-<br>
-
-- **Build Discipline**: Atomic commits, branch-tested features, reproducible dependencies.
-- **Architecture Priority**: Deterministic backend policies backed by pragmatic AI augmentation.
-- **Execution Ethos**: Building and shipping operational software over collecting certificates.
+- **Languages:** Python · C++ · TypeScript · JavaScript
+- **Frameworks & Libraries:** FastAPI · React · Tailwind CSS · Electron
+- **Backend & Infrastructure:** PostgreSQL · Docker · Git · Webhooks · REST APIs
+- **AI & Systems:** LLM APIs · Local AI Tooling · Embeddings · Vector Search
 
 <br>
 
 ---
 
-### `06 // CURRENT FOCUS`
+### Focus & Engineering Interests
 
-```
-RADAR // ACTIVE ENGINEERING OBJECTIVES
-```
-
-- `[01]` **AI Systems & Agents** — Designing robust agents with deterministic fallback rails and strict JSON schemas.
-- `[02]` **Backend Concurrency** — Deepening knowledge in asynchronous architectures, connection pooling, and webhook reliability.
-- `[03]` **Software Craftsmanship** — Writing clean, maintainable C++ and Python with thorough error containment.
-- `[04]` **Hackathons & Shipping** — Prototyping under tight constraints and deploying software that solves concrete problems.
+- **Resilient Backend Systems** — Designing reliable API architectures, event-driven webhooks, and deterministic error handling.
+- **Practical AI Applications** — Building local-first tools and agent workflows that do real work beyond simple prompt wrappers.
+- **Shipping Real Software** — Moving fast from prototype to working deployment, participating in hackathons, and prioritizing running code over certificates.
 
 <br>
 
 ---
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
-  <img alt="System Termination" src="assets/footer-dark.svg" width="100%">
-</picture>
 
 <div align="center">
+  <sub><b>N Darshit</b> • 2nd-year B.Tech CSE • Bengaluru, India</sub>
   <br>
-  <sub><b>N DARSHIT</b> • B.Tech CSE (Y2) • <a href="https://linkedin.com/in/ndarshit">LinkedIn</a> • <a href="https://darshit-portfolio-one.vercel.app/">Portfolio</a> • <a href="https://github.com/darshitn">GitHub</a> • <a href="mailto:darshitn06@gmail.com">Email</a></sub>
+  <sub><a href="https://github.com/darshitn">GitHub</a> &nbsp;•&nbsp; <a href="https://www.linkedin.com/in/n-darshit-63b6b7382/">LinkedIn</a> &nbsp;•&nbsp; <a href="https://darshit-portfolio-one.vercel.app/">Portfolio</a> &nbsp;•&nbsp; <a href="mailto:darshitn06@gmail.com">darshitn06@gmail.com</a></sub>
 </div>
